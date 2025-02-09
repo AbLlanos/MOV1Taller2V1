@@ -173,8 +173,8 @@ export const styles = StyleSheet.create({
     row: {
         flexDirection: "row",
         flexWrap: "wrap",
-        justifyContent: 'space-between',
-        paddingHorizontal: 10,
+        justifyContent: 'space-evenly',
+        paddingHorizontal: 6,
     },
     card: {
         width: width * 0.45,
@@ -183,14 +183,12 @@ export const styles = StyleSheet.create({
         padding: 5,
         alignItems: 'center',
         justifyContent: 'space-between',
-        marginTop:10
+        margin:2,
         
-        
-
     },
     image: {
         width: "100%",
-        height: height * 0.2,
+        height: height * 0.15,
         resizeMode: 'contain',
     },
     textContainer: {
@@ -238,4 +236,3 @@ export const styles = StyleSheet.create({
 
 
 })
-
